@@ -87,6 +87,24 @@ p:last-child,
   margin-left: 0;
 }
 
+// Main nav.
+@media (min-width: $screen-sm-min) {
+  .region-navigation-collapsible {
+    text-align: right;
+
+    #block-fxj-main-menu,
+    #block-fxj-search {
+      display: inline-block;
+    }
+  }
+}
+@media (max-width: $screen-sm-min) {
+  .navbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
 // Donate button.
 .btn-donate {
   @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);

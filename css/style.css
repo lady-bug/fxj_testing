@@ -7965,7 +7965,21 @@ p:last-child,
   font-weight: 300;
   margin-left: 0; }
 
-/* line 91, ../scss/_overrides.scss */
+@media (min-width: 768px) {
+  /* line 92, ../scss/_overrides.scss */
+  .region-navigation-collapsible {
+    text-align: right; }
+    /* line 95, ../scss/_overrides.scss */
+    .region-navigation-collapsible #block-fxj-main-menu,
+    .region-navigation-collapsible #block-fxj-search {
+      display: inline-block; } }
+@media (max-width: 768px) {
+  /* line 102, ../scss/_overrides.scss */
+  .navbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0; } }
+/* line 109, ../scss/_overrides.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
