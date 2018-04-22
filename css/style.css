@@ -7976,28 +7976,46 @@ p:last-child,
       display: inline-block; }
     /* line 100, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-main-menu {
+      color: #333333;
       font-size: 18px; }
-    /* line 103, ../scss/_overrides.scss */
+    /* line 104, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-donatebutton {
       margin: 0 20px; }
-    /* line 106, ../scss/_overrides.scss */
+    /* line 107, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-search {
       width: 200px; } }
-/* line 111, ../scss/_overrides.scss */
+/* line 115, ../scss/_overrides.scss */
+#block-fxj-search .input-group {
+  border-bottom: 1px solid #555555; }
+/* line 118, ../scss/_overrides.scss */
+#block-fxj-search .form-search {
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #555555; }
+/* line 125, ../scss/_overrides.scss */
+#block-fxj-search .form-submit {
+  background-color: white;
+  border: 0;
+  border-radius: 0;
+  color: #555555; }
+
+/* line 133, ../scss/_overrides.scss */
 #block-donatebutton {
   vertical-align: top; }
-  /* line 116, ../scss/_overrides.scss */
+  /* line 138, ../scss/_overrides.scss */
   #block-donatebutton .btn-donate {
     font-size: 18px;
     border-radius: 26px; }
 
 @media (max-width: 768px) {
-  /* line 122, ../scss/_overrides.scss */
+  /* line 144, ../scss/_overrides.scss */
   .navbar-toggle {
     position: absolute;
     top: 0;
     right: 0; } }
-/* line 129, ../scss/_overrides.scss */
+/* line 151, ../scss/_overrides.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
