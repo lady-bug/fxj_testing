@@ -29,4 +29,4 @@ $navbar-default-border: transparent;
 //== Buttons
 $btn-donate-color:              #fff !default;
 $btn-donate-bg:                 $brand-tertiary !default;
-$btn-donate-border:             darken($brand-tertiary, 5%) !default;
+$btn-donate-border:             $brand-tertiary !default;

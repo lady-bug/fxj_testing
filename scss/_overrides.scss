@@ -69,13 +69,11 @@ p:last-child,
 }
 
 // Site branding.
-.navbar {
-  .logo {
-    width: 200px;
+.logo {
+  width: 160px;
 
-    img {
-      width: 100%;
-    }
+  img {
+    width: 100%;
   }
 }
 
@@ -85,6 +83,8 @@ p:last-child,
   font-size: 11px;
   font-weight: 300;
   margin-left: 0;
+
+  @extend .sr-only;
 }
 
 // Main nav.
@@ -93,9 +93,28 @@ p:last-child,
     text-align: right;
 
     #block-fxj-main-menu,
-    #block-fxj-search {
+    #block-fxj-search,
+    #block-donatebutton {
       display: inline-block;
     }
+    #block-fxj-main-menu {
+      font-size: 18px;
+    }
+    #block-donatebutton {
+      margin: 0 20px;
+    }
+    #block-fxj-search{
+      width: 200px;
+    }
+  }
+}
+#block-donatebutton {
+  vertical-align: top;
+  .block-title {
+    @extend .sr-only;
+  }
+  .btn-donate {
+    font-size: 18px;
   }
 }
 @media (max-width: $screen-sm-min) {

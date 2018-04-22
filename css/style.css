@@ -1476,7 +1476,7 @@ hr {
   border-top: 1px solid #eeeeee; }
 
 /* line 125, ../bootstrap/stylesheets/bootstrap/_scaffolding.scss */
-.sr-only {
+.sr-only, .navbar-text, #block-donatebutton .block-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -3542,7 +3542,7 @@ select[multiple].input-lg,
 .has-feedback label ~ .form-control-feedback {
   top: 25px; }
 /* line 442, ../bootstrap/stylesheets/bootstrap/_forms.scss */
-.has-feedback label.sr-only ~ .form-control-feedback {
+.has-feedback label.sr-only ~ .form-control-feedback, .has-feedback label.navbar-text ~ .form-control-feedback, .has-feedback #block-donatebutton label.block-title ~ .form-control-feedback, #block-donatebutton .has-feedback label.block-title ~ .form-control-feedback {
   top: 0; }
 
 /* line 453, ../bootstrap/stylesheets/bootstrap/_forms.scss */
@@ -7950,14 +7950,14 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
-/* line 73, ../scss/_overrides.scss */
-.navbar .logo {
-  width: 200px; }
-  /* line 76, ../scss/_overrides.scss */
-  .navbar .logo img {
+/* line 72, ../scss/_overrides.scss */
+.logo {
+  width: 160px; }
+  /* line 75, ../scss/_overrides.scss */
+  .logo img {
     width: 100%; }
 
-/* line 82, ../scss/_overrides.scss */
+/* line 80, ../scss/_overrides.scss */
 .navbar-text {
   clear: both;
   float: none;
@@ -7971,46 +7971,63 @@ p:last-child,
     text-align: right; }
     /* line 95, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-main-menu,
+    .region-navigation-collapsible #block-fxj-search,
+    .region-navigation-collapsible #block-donatebutton {
+      display: inline-block; }
+    /* line 100, ../scss/_overrides.scss */
+    .region-navigation-collapsible #block-fxj-main-menu {
+      font-size: 18px; }
+    /* line 103, ../scss/_overrides.scss */
+    .region-navigation-collapsible #block-donatebutton {
+      margin: 0 20px; }
+    /* line 106, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-search {
-      display: inline-block; } }
+      width: 200px; } }
+/* line 111, ../scss/_overrides.scss */
+#block-donatebutton {
+  vertical-align: top; }
+  /* line 116, ../scss/_overrides.scss */
+  #block-donatebutton .btn-donate {
+    font-size: 18px; }
+
 @media (max-width: 768px) {
-  /* line 102, ../scss/_overrides.scss */
+  /* line 121, ../scss/_overrides.scss */
   .navbar-toggle {
     position: absolute;
     top: 0;
     right: 0; } }
-/* line 109, ../scss/_overrides.scss */
+/* line 128, ../scss/_overrides.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
-  border-color: #dab10d; }
+  border-color: #f1c40f; }
   /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-donate:focus, .btn-donate.focus {
     color: #fff;
     background-color: #c29d0b;
-    border-color: #614f06; }
+    border-color: #796307; }
   /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-donate:hover {
     color: #fff;
     background-color: #c29d0b;
-    border-color: #a08209; }
+    border-color: #b8960b; }
   /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
     color: #fff;
     background-color: #c29d0b;
-    border-color: #a08209; }
+    border-color: #b8960b; }
     /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
     .btn-donate:active:hover, .btn-donate:active:focus, .btn-donate:active.focus, .btn-donate.active:hover, .btn-donate.active:focus, .btn-donate.active.focus, .open > .btn-donate.dropdown-toggle:hover, .open > .btn-donate.dropdown-toggle:focus, .open > .btn-donate.dropdown-toggle.focus {
       color: #fff;
       background-color: #a08209;
-      border-color: #614f06; }
+      border-color: #796307; }
   /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
     background-image: none; }
   /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-donate.disabled:hover, .btn-donate.disabled:focus, .btn-donate.disabled.focus, .btn-donate[disabled]:hover, .btn-donate[disabled]:focus, .btn-donate[disabled].focus, fieldset[disabled] .btn-donate:hover, fieldset[disabled] .btn-donate:focus, fieldset[disabled] .btn-donate.focus {
     background-color: #f1c40f;
-    border-color: #dab10d; }
+    border-color: #f1c40f; }
   /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-donate .badge {
     color: #f1c40f;
