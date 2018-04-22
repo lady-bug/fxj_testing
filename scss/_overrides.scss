@@ -86,3 +86,8 @@ p:last-child,
   font-weight: 300;
   margin-left: 0;
 }
+
+// Donate button.
+.btn-donate {
+  @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
+}

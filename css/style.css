@@ -7964,3 +7964,40 @@ p:last-child,
   font-size: 11px;
   font-weight: 300;
   margin-left: 0; }
+
+/* line 91, ../scss/_overrides.scss */
+.btn-donate {
+  color: #fff;
+  background-color: #f1c40f;
+  border-color: #dab10d; }
+  /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:focus, .btn-donate.focus {
+    color: #fff;
+    background-color: #c29d0b;
+    border-color: #614f06; }
+  /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:hover {
+    color: #fff;
+    background-color: #c29d0b;
+    border-color: #a08209; }
+  /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
+    color: #fff;
+    background-color: #c29d0b;
+    border-color: #a08209; }
+    /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+    .btn-donate:active:hover, .btn-donate:active:focus, .btn-donate:active.focus, .btn-donate.active:hover, .btn-donate.active:focus, .btn-donate.active.focus, .open > .btn-donate.dropdown-toggle:hover, .open > .btn-donate.dropdown-toggle:focus, .open > .btn-donate.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #a08209;
+      border-color: #614f06; }
+  /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
+    background-image: none; }
+  /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate.disabled:hover, .btn-donate.disabled:focus, .btn-donate.disabled.focus, .btn-donate[disabled]:hover, .btn-donate[disabled]:focus, .btn-donate[disabled].focus, fieldset[disabled] .btn-donate:hover, fieldset[disabled] .btn-donate:focus, fieldset[disabled] .btn-donate.focus {
+    background-color: #f1c40f;
+    border-color: #dab10d; }
+  /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate .badge {
+    color: #f1c40f;
+    background-color: #fff; }

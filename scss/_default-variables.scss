@@ -25,3 +25,8 @@ $font-family-sans-serif: 'Source Sans Pro';
 //== Navbar
 $navbar-default-bg: transparent;
 $navbar-default-border: transparent;
+
+//== Buttons
+$btn-donate-color:              #fff !default;
+$btn-donate-bg:                 $brand-tertiary !default;
+$btn-donate-border:             darken($brand-tertiary, 5%) !default;
