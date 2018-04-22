@@ -18,6 +18,7 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  maxi_footer: 'Maxi footer'
 
 libraries-extend:
   bootstrap/framework:

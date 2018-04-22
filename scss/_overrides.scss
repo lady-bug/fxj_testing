@@ -157,7 +157,7 @@ p:last-child,
   background-color: $brand-quaternary;
   padding-top: 0;
   padding-bottom: 0;
-  
+
   .nav > li > a {
     background-color: $brand-quaternary;
     color: white;
@@ -171,5 +171,42 @@ p:last-child,
 @media (min-width: $screen-sm-min) {
   .nav > li {
     display: inline-block;
+  }
+}
+
+// Maxi footer
+.maxi-footer{
+  background-color: $gray-dark;
+  color: white;
+
+
+  .block {
+    @extend .col-md-3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  a {
+    color: white;
+  }
+
+  .block-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  // sr only
+  #block-copyright,
+  #block-logomonograma {
+    .block-title {
+      @extend .sr-only;
+    }
+  }
+
+  #block-logomonograma {
+    img {
+      height: 170px;
+    }
   }
 }

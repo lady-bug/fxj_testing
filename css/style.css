@@ -1476,7 +1476,8 @@ hr {
   border-top: 1px solid #eeeeee; }
 
 /* line 125, ../bootstrap/stylesheets/bootstrap/_scaffolding.scss */
-.sr-only, .navbar-text, #block-donatebutton .block-title {
+.sr-only, .navbar-text, #block-donatebutton .block-title, .maxi-footer #block-copyright .block-title,
+.maxi-footer #block-logomonograma .block-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1990,7 +1991,7 @@ pre {
     clear: both; }
 
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .maxi-footer .block, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2414,7 +2415,7 @@ pre {
     margin-left: 100%; } }
 @media (min-width: 992px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .maxi-footer .block, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2426,7 +2427,7 @@ pre {
     width: 16.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-3 {
+  .col-md-3, .maxi-footer .block {
     width: 25%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -3542,7 +3543,9 @@ select[multiple].input-lg,
 .has-feedback label ~ .form-control-feedback {
   top: 25px; }
 /* line 442, ../bootstrap/stylesheets/bootstrap/_forms.scss */
-.has-feedback label.sr-only ~ .form-control-feedback, .has-feedback label.navbar-text ~ .form-control-feedback, .has-feedback #block-donatebutton label.block-title ~ .form-control-feedback, #block-donatebutton .has-feedback label.block-title ~ .form-control-feedback {
+.has-feedback label.sr-only ~ .form-control-feedback, .has-feedback label.navbar-text ~ .form-control-feedback, .has-feedback #block-donatebutton label.block-title ~ .form-control-feedback, #block-donatebutton .has-feedback label.block-title ~ .form-control-feedback, .has-feedback .maxi-footer #block-copyright label.block-title ~ .form-control-feedback, .maxi-footer #block-copyright .has-feedback label.block-title ~ .form-control-feedback,
+.has-feedback .maxi-footer #block-logomonograma label.block-title ~ .form-control-feedback,
+.maxi-footer #block-logomonograma .has-feedback label.block-title ~ .form-control-feedback {
   top: 0; }
 
 /* line 453, ../bootstrap/stylesheets/bootstrap/_forms.scss */
@@ -8069,3 +8072,22 @@ p:last-child,
   /* line 172, ../scss/_overrides.scss */
   .nav > li {
     display: inline-block; } }
+/* line 178, ../scss/_overrides.scss */
+.maxi-footer {
+  background-color: #333333;
+  color: white; }
+  /* line 183, ../scss/_overrides.scss */
+  .maxi-footer .block {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  /* line 189, ../scss/_overrides.scss */
+  .maxi-footer a {
+    color: white; }
+  /* line 193, ../scss/_overrides.scss */
+  .maxi-footer .block-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0; }
+  /* line 208, ../scss/_overrides.scss */
+  .maxi-footer #block-logomonograma img {
+    height: 170px; }
