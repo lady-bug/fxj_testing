@@ -7988,15 +7988,16 @@ p:last-child,
   vertical-align: top; }
   /* line 116, ../scss/_overrides.scss */
   #block-donatebutton .btn-donate {
-    font-size: 18px; }
+    font-size: 18px;
+    border-radius: 26px; }
 
 @media (max-width: 768px) {
-  /* line 121, ../scss/_overrides.scss */
+  /* line 122, ../scss/_overrides.scss */
   .navbar-toggle {
     position: absolute;
     top: 0;
     right: 0; } }
-/* line 128, ../scss/_overrides.scss */
+/* line 129, ../scss/_overrides.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
