@@ -8051,3 +8051,21 @@ p:last-child,
   .btn-donate .badge {
     color: #f1c40f;
     background-color: #fff; }
+
+/* line 156, ../scss/_overrides.scss */
+.footer {
+  background-color: #c0392b;
+  padding-top: 0;
+  padding-bottom: 0; }
+  /* line 161, ../scss/_overrides.scss */
+  .footer .nav > li > a {
+    background-color: #c0392b;
+    color: white; }
+    /* line 165, ../scss/_overrides.scss */
+    .footer .nav > li > a:hover {
+      text-decoration: underline; }
+
+@media (min-width: 768px) {
+  /* line 172, ../scss/_overrides.scss */
+  .nav > li {
+    display: inline-block; } }

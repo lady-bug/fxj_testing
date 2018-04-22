@@ -151,3 +151,25 @@ p:last-child,
 .btn-donate {
   @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
 }
+
+// footer
+.footer{
+  background-color: $brand-quaternary;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+  .nav > li > a {
+    background-color: $brand-quaternary;
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}
+@media (min-width: $screen-sm-min) {
+  .nav > li {
+    display: inline-block;
+  }
+}
