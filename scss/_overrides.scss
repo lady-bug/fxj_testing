@@ -243,7 +243,7 @@ p:last-child,
 
   // custom blocks
   #block-copyright,
-  #block-logomonograma {
+  #block-logomonograma{
     .block-title {
       @extend .sr-only;
     }
@@ -254,5 +254,100 @@ p:last-child,
     img {
       height: 150px;
     }
+  }
+
+  .field--name-mail .form-type-email{
+    position: relative;
+
+    label {
+      bottom: 10px;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 400;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      margin-bottom: 0;
+      text-rendering: auto;
+      line-height: 1;
+      overflow: hidden;
+      position: absolute;
+      width: 14px;
+
+      &:before {
+        content: "\f0e0";
+      }
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .field--name-mail input {
+    color: white;
+    background-color: $gray-dark;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    padding-left: 26px;
+
+    &:focus {
+      outline: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+
+  #edit-subscribe{
+    bottom: 15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    margin-bottom: 0;
+    text-rendering: auto;
+    line-height: 1;
+    overflow: hidden;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding:0;
+    margin:0;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: $gray-dark;
+
+    &:before {
+      content: "\f054";
+      padding: 0 15px;
+    }
+  }
+
+  #edit-mail-wrapper {
+    padding: 5px 10px 0 0;
+    margin: 0;
+    display: inline-block;
+    width: calc(100% - 50px);
+    float: left;
+  }
+  #edit-actions--2 {
+    display: inline-block;
+    float: left;
+  }
+  #edit-subscriptions-wrapper {
+    margin: 0;
+  }
+  #edit-message {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
   }
 }
