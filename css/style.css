@@ -11851,7 +11851,7 @@ p:last-child,
   font-weight: 300; }
   /* line 185, ../scss/_overrides.scss */
   .maxi-footer strong {
-    font-weight: 400; }
+    font-weight: 600; }
   /* line 189, ../scss/_overrides.scss */
   .maxi-footer .block {
     padding-bottom: 20px;
@@ -11866,4 +11866,4 @@ p:last-child,
     margin-top: 0; }
   /* line 215, ../scss/_overrides.scss */
   .maxi-footer #block-logomonograma img {
-    height: 170px; }
+    height: 150px; }
