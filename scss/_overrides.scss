@@ -60,8 +60,25 @@ p:last-child,
   }
 }
 
+// container-fluid
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+
+  .container-content {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1160px;
+  }
+}
+
 // Site branding.
 .logo {
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
   width: 160px;
 
   img {
