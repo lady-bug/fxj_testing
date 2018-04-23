@@ -30,14 +30,6 @@ ol, ul {
   margin-top: 0;
 }
 
-// Footer.
-.footer {
-  margin-top: 45px;
-  padding-top: 35px;
-  padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5;
-}
-
 // Paragraphs.
 p:last-child,
 .form-group:last-child,
@@ -153,10 +145,11 @@ p:last-child,
   }
 }
 
-// Footer
+// Footer.
 .footer {
   background-color: $brand-quaternary;
   font-weight: 300;
+  margin-top: 45px;
   padding-top: 0;
   padding-bottom: 0;
 
@@ -179,6 +172,7 @@ p:last-child,
 // Maxi footer
 .maxi-footer {
   background-color: $gray-dark;
+  border-top: 1px solid white;
   color: white;
   font-weight: 300;
 
