@@ -84,10 +84,18 @@ p:last-child,
   font-weight: 300;
   margin-left: 0;
 
-  @extend .sr-only;
+  @extend .sr-only;// hide slogan on the screen
 }
 
 // Main nav.
+// toggle
+@media (max-width: $screen-sm-min) {
+  .navbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
 @media (min-width: $screen-sm-min) {
   .region-navigation-collapsible {
     text-align: right;
@@ -110,7 +118,7 @@ p:last-child,
   }
 }
 
-// search
+// Search block
 #block-fxj-search {
   .input-group{
     border-bottom: 1px solid $gray;
@@ -130,6 +138,10 @@ p:last-child,
   }
 }
 
+// Donate button.
+.btn-donate {
+  @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
+}
 #block-donatebutton {
   vertical-align: top;
   .block-title {
@@ -140,21 +152,11 @@ p:last-child,
     border-radius: 26px;
   }
 }
-@media (max-width: $screen-sm-min) {
-  .navbar-toggle {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-}
-// Donate button.
-.btn-donate {
-  @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
-}
 
-// footer
-.footer{
+// Footer
+.footer {
   background-color: $brand-quaternary;
+  font-weight: 300;
   padding-top: 0;
   padding-bottom: 0;
 
@@ -175,10 +177,14 @@ p:last-child,
 }
 
 // Maxi footer
-.maxi-footer{
+.maxi-footer {
   background-color: $gray-dark;
   color: white;
+  font-weight: 300;
 
+  strong {
+    font-weight: 400;
+  }
 
   .block {
     @extend .col-md-3;
@@ -192,11 +198,11 @@ p:last-child,
 
   .block-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     margin-top: 0;
   }
 
-  // sr only
+  // custom blocks
   #block-copyright,
   #block-logomonograma {
     .block-title {
@@ -204,6 +210,7 @@ p:last-child,
     }
   }
 
+  //logo monograma
   #block-logomonograma {
     img {
       height: 170px;

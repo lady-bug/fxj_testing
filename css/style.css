@@ -11739,57 +11739,49 @@ p:last-child,
   font-weight: 300;
   margin-left: 0; }
 
+@media (max-width: 768px) {
+  /* line 93, ../scss/_overrides.scss */
+  .navbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0; } }
 @media (min-width: 768px) {
-  /* line 92, ../scss/_overrides.scss */
+  /* line 100, ../scss/_overrides.scss */
   .region-navigation-collapsible {
     text-align: right; }
-    /* line 95, ../scss/_overrides.scss */
+    /* line 103, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-main-menu,
     .region-navigation-collapsible #block-fxj-search,
     .region-navigation-collapsible #block-donatebutton {
       display: inline-block; }
-    /* line 100, ../scss/_overrides.scss */
+    /* line 108, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-main-menu {
       color: #333333;
       font-size: 18px; }
-    /* line 104, ../scss/_overrides.scss */
+    /* line 112, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-donatebutton {
       margin: 0 20px; }
-    /* line 107, ../scss/_overrides.scss */
+    /* line 115, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-search {
       width: 200px; } }
-/* line 115, ../scss/_overrides.scss */
+/* line 123, ../scss/_overrides.scss */
 #block-fxj-search .input-group {
   border-bottom: 1px solid #555555; }
-/* line 118, ../scss/_overrides.scss */
+/* line 126, ../scss/_overrides.scss */
 #block-fxj-search .form-search {
   border: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #555555; }
-/* line 125, ../scss/_overrides.scss */
+/* line 133, ../scss/_overrides.scss */
 #block-fxj-search .form-submit {
   background-color: white;
   border: 0;
   border-radius: 0;
   color: #555555; }
 
-/* line 133, ../scss/_overrides.scss */
-#block-donatebutton {
-  vertical-align: top; }
-  /* line 138, ../scss/_overrides.scss */
-  #block-donatebutton .btn-donate {
-    font-size: 18px;
-    border-radius: 26px; }
-
-@media (max-width: 768px) {
-  /* line 144, ../scss/_overrides.scss */
-  .navbar-toggle {
-    position: absolute;
-    top: 0;
-    right: 0; } }
-/* line 151, ../scss/_overrides.scss */
+/* line 142, ../scss/_overrides.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
@@ -11826,39 +11818,52 @@ p:last-child,
     color: #f1c40f;
     background-color: #fff; }
 
-/* line 156, ../scss/_overrides.scss */
+/* line 145, ../scss/_overrides.scss */
+#block-donatebutton {
+  vertical-align: top; }
+  /* line 150, ../scss/_overrides.scss */
+  #block-donatebutton .btn-donate {
+    font-size: 18px;
+    border-radius: 26px; }
+
+/* line 157, ../scss/_overrides.scss */
 .footer {
   background-color: #c0392b;
+  font-weight: 300;
   padding-top: 0;
   padding-bottom: 0; }
-  /* line 161, ../scss/_overrides.scss */
+  /* line 163, ../scss/_overrides.scss */
   .footer .nav > li > a {
     background-color: #c0392b;
     color: white; }
-    /* line 165, ../scss/_overrides.scss */
+    /* line 167, ../scss/_overrides.scss */
     .footer .nav > li > a:hover {
       text-decoration: underline; }
 
 @media (min-width: 768px) {
-  /* line 172, ../scss/_overrides.scss */
+  /* line 174, ../scss/_overrides.scss */
   .nav > li {
     display: inline-block; } }
-/* line 178, ../scss/_overrides.scss */
+/* line 180, ../scss/_overrides.scss */
 .maxi-footer {
   background-color: #333333;
-  color: white; }
-  /* line 183, ../scss/_overrides.scss */
+  color: white;
+  font-weight: 300; }
+  /* line 185, ../scss/_overrides.scss */
+  .maxi-footer strong {
+    font-weight: 400; }
+  /* line 189, ../scss/_overrides.scss */
   .maxi-footer .block {
     padding-bottom: 20px;
     padding-top: 20px; }
-  /* line 189, ../scss/_overrides.scss */
+  /* line 195, ../scss/_overrides.scss */
   .maxi-footer a {
     color: white; }
-  /* line 193, ../scss/_overrides.scss */
+  /* line 199, ../scss/_overrides.scss */
   .maxi-footer .block-title {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     margin-top: 0; }
-  /* line 208, ../scss/_overrides.scss */
+  /* line 215, ../scss/_overrides.scss */
   .maxi-footer #block-logomonograma img {
     height: 170px; }
