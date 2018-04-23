@@ -80,6 +80,13 @@ p:last-child,
 }
 
 // Main nav.
+.navbar-default .navbar-nav > li > a {
+  color: $gray-dark;
+
+  &:hover {
+
+  }
+}
 // toggle
 @media (max-width: $screen-sm-min) {
   .navbar-toggle {
@@ -100,6 +107,27 @@ p:last-child,
     #block-fxj-main-menu {
       color: $gray-dark;
       font-size: 18px;
+
+      li {
+        a {
+          border-bottom: 5px solid white;
+          color: $gray-dark;
+          outline: 0;
+
+          &:hover,
+          &:focus {
+            color: $gray-dark;
+            text-decoration: underline;
+          }
+        }
+
+        &.active {
+          a {
+            border-color: $brand-tertiary;
+            color: $gray-dark;
+          }
+        }
+      }
     }
     #block-donatebutton {
       margin: 0 20px;
