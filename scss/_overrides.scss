@@ -226,9 +226,13 @@ body.navbar-is-fixed-top {
 
   .nav > li {
     display: inline-block;
-    &> a {
+    & > a {
       background-color: $brand-quaternary;
       color: white;
+
+      i {
+        margin-right: 5px;
+      }
 
       &:hover {
         text-decoration: underline;
@@ -236,8 +240,40 @@ body.navbar-is-fixed-top {
     }
   }
 
-}
+  #block-languagedropdownswitcher {
+    float: left;
+    margin-right: 15px;
 
+    .form-control {
+      background-color: $brand-quaternary;
+      border: 1px solid white;
+      border-radius: 0;
+      border-width: 0 0 1px 0;
+      color: white;
+      height: auto;
+      margin-top: 3px;
+      padding: 6px 0;
+    }
+
+    .select-wrapper:after {
+      color: white;
+      content: '▾';
+    }
+  }
+
+}
+@media (max-width: $screen-sm-min) {
+  .footer .nav > li > a {
+    width: 40px;
+    overflow: hidden;
+    height: 40px;
+
+    i {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
 // Maxi footer
 .maxi-footer {
   background-color: $gray-dark;
@@ -324,7 +360,7 @@ body.navbar-is-fixed-top {
   }
 
   #edit-subscribe{
-    bottom: 15px;
+    bottom: 20px;
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     -moz-osx-font-smoothing: grayscale;
@@ -337,20 +373,20 @@ body.navbar-is-fixed-top {
     line-height: 1;
     overflow: hidden;
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34px;
+    height: 34px;
     padding:0;
     margin:0;
 
     border: 1px solid white;
-    border-radius: 20px;
-    font-size: 20px;
+    border-radius: 17px;
+    font-size: 14px;
     color: white;
     background-color: $gray-dark;
 
     &:before {
       content: "\f054";
-      padding: 0 15px;
+      padding: 0 13px;
     }
   }
 
@@ -358,7 +394,7 @@ body.navbar-is-fixed-top {
     padding: 5px 10px 0 0;
     margin: 0;
     display: inline-block;
-    width: calc(100% - 50px);
+    width: calc(100% - 34px);
     float: left;
   }
   #edit-actions--2 {
