@@ -59,7 +59,10 @@ p:last-child,
     margin-top: 0;
   }
 }
-
+/*
+ * FxJ styles
+ *
+ ********************/
 // container-fluid
 .container-fluid {
   padding-left: 0;
@@ -198,20 +201,18 @@ p:last-child,
   padding-top: 0;
   padding-bottom: 0;
 
-  .nav > li > a {
-    background-color: $brand-quaternary;
-    color: white;
+  .nav > li {
+    display: inline-block;
+    &> a {
+      background-color: $brand-quaternary;
+      color: white;
 
-    &:hover {
-      text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
-}
-@media (min-width: $screen-sm-min) {
-  .nav > li {
-    display: inline-block;
-  }
 }
 
 // Maxi footer

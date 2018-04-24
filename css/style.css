@@ -7946,11 +7946,15 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
-/* line 64, ../scss/_overrides.scss */
+/*
+ * FxJ styles
+ *
+ ********************/
+/* line 67, ../scss/_overrides.scss */
 .container-fluid {
   padding-left: 0;
   padding-right: 0; }
-  /* line 68, ../scss/_overrides.scss */
+  /* line 71, ../scss/_overrides.scss */
   .container-fluid .container-content {
     margin-right: auto;
     margin-left: auto;
@@ -7958,17 +7962,17 @@ p:last-child,
     padding-right: 15px;
     max-width: 1160px; }
 
-/* line 78, ../scss/_overrides.scss */
+/* line 81, ../scss/_overrides.scss */
 .logo {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
   width: 160px; }
-  /* line 84, ../scss/_overrides.scss */
+  /* line 87, ../scss/_overrides.scss */
   .logo img {
     width: 100%; }
 
-/* line 89, ../scss/_overrides.scss */
+/* line 92, ../scss/_overrides.scss */
 .navbar-text {
   clear: both;
   float: none;
@@ -7976,66 +7980,66 @@ p:last-child,
   font-weight: 300;
   margin-left: 0; }
 
-/* line 100, ../scss/_overrides.scss */
+/* line 103, ../scss/_overrides.scss */
 .navbar-default .navbar-nav > li > a {
   color: #333333; }
 
 @media (max-width: 768px) {
-  /* line 109, ../scss/_overrides.scss */
+  /* line 112, ../scss/_overrides.scss */
   .navbar-toggle {
     position: absolute;
     top: 0;
     right: 0; } }
 @media (min-width: 768px) {
-  /* line 116, ../scss/_overrides.scss */
+  /* line 119, ../scss/_overrides.scss */
   .region-navigation-collapsible {
     text-align: right; }
-    /* line 119, ../scss/_overrides.scss */
+    /* line 122, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-main-menu,
     .region-navigation-collapsible #block-fxj-search,
     .region-navigation-collapsible #block-donatebutton {
       display: inline-block; }
-    /* line 124, ../scss/_overrides.scss */
+    /* line 127, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-main-menu {
       color: #333333;
       font-size: 18px; }
-      /* line 129, ../scss/_overrides.scss */
+      /* line 132, ../scss/_overrides.scss */
       .region-navigation-collapsible #block-fxj-main-menu li a {
         border-bottom: 5px solid white;
         color: #333333;
         outline: 0; }
-        /* line 134, ../scss/_overrides.scss */
+        /* line 137, ../scss/_overrides.scss */
         .region-navigation-collapsible #block-fxj-main-menu li a:hover, .region-navigation-collapsible #block-fxj-main-menu li a:focus {
           color: #333333;
           text-decoration: underline; }
-      /* line 142, ../scss/_overrides.scss */
+      /* line 145, ../scss/_overrides.scss */
       .region-navigation-collapsible #block-fxj-main-menu li.active a {
         border-color: #f1c40f;
         color: #333333; }
-    /* line 149, ../scss/_overrides.scss */
+    /* line 152, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-donatebutton {
       margin: 0 20px; }
-    /* line 152, ../scss/_overrides.scss */
+    /* line 155, ../scss/_overrides.scss */
     .region-navigation-collapsible #block-fxj-search {
       width: 200px; } }
-/* line 160, ../scss/_overrides.scss */
+/* line 163, ../scss/_overrides.scss */
 #block-fxj-search .input-group {
   border-bottom: 1px solid #555555; }
-/* line 163, ../scss/_overrides.scss */
+/* line 166, ../scss/_overrides.scss */
 #block-fxj-search .form-search {
   border: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #555555; }
-/* line 170, ../scss/_overrides.scss */
+/* line 173, ../scss/_overrides.scss */
 #block-fxj-search .form-submit {
   background-color: white;
   border: 0;
   border-radius: 0;
   color: #555555; }
 
-/* line 179, ../scss/_overrides.scss */
+/* line 182, ../scss/_overrides.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
@@ -8072,61 +8076,60 @@ p:last-child,
     color: #f1c40f;
     background-color: #fff; }
 
-/* line 182, ../scss/_overrides.scss */
+/* line 185, ../scss/_overrides.scss */
 #block-donatebutton {
   vertical-align: top; }
-  /* line 187, ../scss/_overrides.scss */
+  /* line 190, ../scss/_overrides.scss */
   #block-donatebutton .btn-donate {
     font-size: 18px;
     border-radius: 26px; }
 
-/* line 194, ../scss/_overrides.scss */
+/* line 197, ../scss/_overrides.scss */
 .footer {
   background-color: #c0392b;
   font-weight: 300;
   margin-top: 45px;
   padding-top: 0;
   padding-bottom: 0; }
-  /* line 201, ../scss/_overrides.scss */
-  .footer .nav > li > a {
-    background-color: #c0392b;
-    color: white; }
-    /* line 205, ../scss/_overrides.scss */
-    .footer .nav > li > a:hover {
-      text-decoration: underline; }
+  /* line 204, ../scss/_overrides.scss */
+  .footer .nav > li {
+    display: inline-block; }
+    /* line 206, ../scss/_overrides.scss */
+    .footer .nav > li > a {
+      background-color: #c0392b;
+      color: white; }
+      /* line 210, ../scss/_overrides.scss */
+      .footer .nav > li > a:hover {
+        text-decoration: underline; }
 
-@media (min-width: 768px) {
-  /* line 212, ../scss/_overrides.scss */
-  .nav > li {
-    display: inline-block; } }
-/* line 218, ../scss/_overrides.scss */
+/* line 219, ../scss/_overrides.scss */
 .maxi-footer {
   background-color: #333333;
   border-top: 1px solid white;
   color: white;
   font-weight: 300; }
-  /* line 224, ../scss/_overrides.scss */
+  /* line 225, ../scss/_overrides.scss */
   .maxi-footer strong {
     font-weight: 600; }
-  /* line 228, ../scss/_overrides.scss */
+  /* line 229, ../scss/_overrides.scss */
   .maxi-footer .block {
     padding-bottom: 20px;
     padding-top: 20px; }
-  /* line 234, ../scss/_overrides.scss */
+  /* line 235, ../scss/_overrides.scss */
   .maxi-footer a {
     color: white; }
-  /* line 238, ../scss/_overrides.scss */
+  /* line 239, ../scss/_overrides.scss */
   .maxi-footer .block-title {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0; }
-  /* line 254, ../scss/_overrides.scss */
+  /* line 255, ../scss/_overrides.scss */
   .maxi-footer #block-logomonograma img {
     height: 150px; }
-  /* line 259, ../scss/_overrides.scss */
+  /* line 260, ../scss/_overrides.scss */
   .maxi-footer .field--name-mail .form-type-email {
     position: relative; }
-    /* line 262, ../scss/_overrides.scss */
+    /* line 263, ../scss/_overrides.scss */
     .maxi-footer .field--name-mail .form-type-email label {
       bottom: 10px;
       font-family: 'Font Awesome 5 Free';
@@ -8142,13 +8145,13 @@ p:last-child,
       overflow: hidden;
       position: absolute;
       width: 14px; }
-      /* line 278, ../scss/_overrides.scss */
+      /* line 279, ../scss/_overrides.scss */
       .maxi-footer .field--name-mail .form-type-email label:before {
         content: "\f0e0"; }
-      /* line 281, ../scss/_overrides.scss */
+      /* line 282, ../scss/_overrides.scss */
       .maxi-footer .field--name-mail .form-type-email label:after {
         display: none; }
-  /* line 287, ../scss/_overrides.scss */
+  /* line 288, ../scss/_overrides.scss */
   .maxi-footer .field--name-mail input {
     color: white;
     background-color: #333333;
@@ -8156,12 +8159,12 @@ p:last-child,
     border-width: 0 0 1px 0;
     border-radius: 0;
     padding-left: 26px; }
-    /* line 295, ../scss/_overrides.scss */
+    /* line 296, ../scss/_overrides.scss */
     .maxi-footer .field--name-mail input:focus {
       outline: 0;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  /* line 302, ../scss/_overrides.scss */
+  /* line 303, ../scss/_overrides.scss */
   .maxi-footer #edit-subscribe {
     bottom: 15px;
     font-family: 'Font Awesome 5 Free';
@@ -8185,25 +8188,25 @@ p:last-child,
     font-size: 20px;
     color: white;
     background-color: #333333; }
-    /* line 327, ../scss/_overrides.scss */
+    /* line 328, ../scss/_overrides.scss */
     .maxi-footer #edit-subscribe:before {
       content: "\f054";
       padding: 0 15px; }
-  /* line 333, ../scss/_overrides.scss */
+  /* line 334, ../scss/_overrides.scss */
   .maxi-footer #edit-mail-wrapper {
     padding: 5px 10px 0 0;
     margin: 0;
     display: inline-block;
     width: calc(100% - 50px);
     float: left; }
-  /* line 340, ../scss/_overrides.scss */
+  /* line 341, ../scss/_overrides.scss */
   .maxi-footer #edit-actions--2 {
     display: inline-block;
     float: left; }
-  /* line 344, ../scss/_overrides.scss */
+  /* line 345, ../scss/_overrides.scss */
   .maxi-footer #edit-subscriptions-wrapper {
     margin: 0; }
-  /* line 347, ../scss/_overrides.scss */
+  /* line 348, ../scss/_overrides.scss */
   .maxi-footer #edit-message {
     margin-bottom: 10px;
     font-size: 20px;
