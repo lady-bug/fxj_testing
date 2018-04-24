@@ -220,7 +220,6 @@ body.navbar-is-fixed-top {
 .footer {
   background-color: $brand-quaternary;
   font-weight: 300;
-  margin-top: 45px;
   padding-top: 0;
   padding-bottom: 0;
 
@@ -409,5 +408,46 @@ body.navbar-is-fixed-top {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
+  }
+}
+
+// footer stuff trick investigating
+@media (min-width: $screen-md-min) {
+  .maxi-footer {
+    position: fixed;
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+    bottom: 0;
+  }
+  .main-container {
+    background-color: white;
+  }
+  .footer {
+    margin-bottom: 200px;
+  }
+  .js {
+    .main-container {
+      &.relative{
+        margin-bottom: 0;
+      }
+      &.fixed {
+        margin-bottom: 40px;
+      }
+    }
+
+    .footer {
+
+      &.relative{
+        position: relative;
+      }
+      &.fixed{
+        bottom: 0;
+        height: 40px;
+        margin-bottom: 0;
+        position: fixed;
+        width: 100%;
+      }
+    }
   }
 }

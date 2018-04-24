@@ -8121,27 +8121,26 @@ body.navbar-is-fixed-top {
 .footer {
   background-color: #c0392b;
   font-weight: 300;
-  margin-top: 45px;
   padding-top: 0;
   padding-bottom: 0; }
-  /* line 227, ../scss/_overrides.scss */
+  /* line 226, ../scss/_overrides.scss */
   .footer .nav > li {
     display: inline-block; }
-    /* line 229, ../scss/_overrides.scss */
+    /* line 228, ../scss/_overrides.scss */
     .footer .nav > li > a {
       background-color: #c0392b;
       color: white; }
-      /* line 233, ../scss/_overrides.scss */
+      /* line 232, ../scss/_overrides.scss */
       .footer .nav > li > a i {
         margin-right: 5px; }
-      /* line 237, ../scss/_overrides.scss */
+      /* line 236, ../scss/_overrides.scss */
       .footer .nav > li > a:hover {
         text-decoration: underline; }
-  /* line 243, ../scss/_overrides.scss */
+  /* line 242, ../scss/_overrides.scss */
   .footer #block-languagedropdownswitcher {
     float: left;
     margin-right: 15px; }
-    /* line 247, ../scss/_overrides.scss */
+    /* line 246, ../scss/_overrides.scss */
     .footer #block-languagedropdownswitcher .form-control {
       background-color: #c0392b;
       border: 1px solid white;
@@ -8151,49 +8150,49 @@ body.navbar-is-fixed-top {
       height: auto;
       margin-top: 3px;
       padding: 6px 0; }
-    /* line 258, ../scss/_overrides.scss */
+    /* line 257, ../scss/_overrides.scss */
     .footer #block-languagedropdownswitcher .select-wrapper:after {
       color: white;
       content: '▾'; }
 
 @media (max-width: 768px) {
-  /* line 266, ../scss/_overrides.scss */
+  /* line 265, ../scss/_overrides.scss */
   .footer .nav > li > a {
     width: 40px;
     overflow: hidden;
     height: 40px; }
-    /* line 271, ../scss/_overrides.scss */
+    /* line 270, ../scss/_overrides.scss */
     .footer .nav > li > a i {
       width: 25px;
       height: 25px; } }
-/* line 278, ../scss/_overrides.scss */
+/* line 277, ../scss/_overrides.scss */
 .maxi-footer {
   background-color: #333333;
   border-top: 1px solid white;
   color: white;
   font-weight: 300; }
-  /* line 284, ../scss/_overrides.scss */
+  /* line 283, ../scss/_overrides.scss */
   .maxi-footer strong {
     font-weight: 600; }
-  /* line 288, ../scss/_overrides.scss */
+  /* line 287, ../scss/_overrides.scss */
   .maxi-footer .block {
     padding-bottom: 20px;
     padding-top: 20px; }
-  /* line 294, ../scss/_overrides.scss */
+  /* line 293, ../scss/_overrides.scss */
   .maxi-footer a {
     color: white; }
-  /* line 298, ../scss/_overrides.scss */
+  /* line 297, ../scss/_overrides.scss */
   .maxi-footer .block-title {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0; }
-  /* line 314, ../scss/_overrides.scss */
+  /* line 313, ../scss/_overrides.scss */
   .maxi-footer #block-logomonograma img {
     height: 150px; }
-  /* line 319, ../scss/_overrides.scss */
+  /* line 318, ../scss/_overrides.scss */
   .maxi-footer .field--name-mail .form-type-email {
     position: relative; }
-    /* line 322, ../scss/_overrides.scss */
+    /* line 321, ../scss/_overrides.scss */
     .maxi-footer .field--name-mail .form-type-email label {
       bottom: 10px;
       font-family: 'Font Awesome 5 Free';
@@ -8209,13 +8208,13 @@ body.navbar-is-fixed-top {
       overflow: hidden;
       position: absolute;
       width: 14px; }
-      /* line 338, ../scss/_overrides.scss */
+      /* line 337, ../scss/_overrides.scss */
       .maxi-footer .field--name-mail .form-type-email label:before {
         content: "\f0e0"; }
-      /* line 341, ../scss/_overrides.scss */
+      /* line 340, ../scss/_overrides.scss */
       .maxi-footer .field--name-mail .form-type-email label:after {
         display: none; }
-  /* line 347, ../scss/_overrides.scss */
+  /* line 346, ../scss/_overrides.scss */
   .maxi-footer .field--name-mail input {
     color: white;
     background-color: #333333;
@@ -8223,12 +8222,12 @@ body.navbar-is-fixed-top {
     border-width: 0 0 1px 0;
     border-radius: 0;
     padding-left: 26px; }
-    /* line 355, ../scss/_overrides.scss */
+    /* line 354, ../scss/_overrides.scss */
     .maxi-footer .field--name-mail input:focus {
       outline: 0;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  /* line 362, ../scss/_overrides.scss */
+  /* line 361, ../scss/_overrides.scss */
   .maxi-footer #edit-subscribe {
     bottom: 20px;
     font-family: 'Font Awesome 5 Free';
@@ -8252,27 +8251,61 @@ body.navbar-is-fixed-top {
     font-size: 14px;
     color: white;
     background-color: #333333; }
-    /* line 387, ../scss/_overrides.scss */
+    /* line 386, ../scss/_overrides.scss */
     .maxi-footer #edit-subscribe:before {
       content: "\f054";
       padding: 0 13px; }
-  /* line 393, ../scss/_overrides.scss */
+  /* line 392, ../scss/_overrides.scss */
   .maxi-footer #edit-mail-wrapper {
     padding: 5px 10px 0 0;
     margin: 0;
     display: inline-block;
     width: calc(100% - 34px);
     float: left; }
-  /* line 400, ../scss/_overrides.scss */
+  /* line 399, ../scss/_overrides.scss */
   .maxi-footer #edit-actions--2 {
     display: inline-block;
     float: left; }
-  /* line 404, ../scss/_overrides.scss */
+  /* line 403, ../scss/_overrides.scss */
   .maxi-footer #edit-subscriptions-wrapper {
     margin: 0; }
-  /* line 407, ../scss/_overrides.scss */
+  /* line 406, ../scss/_overrides.scss */
   .maxi-footer #edit-message {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 400;
     margin-top: 0; }
+
+@media (min-width: 992px) {
+  /* line 416, ../scss/_overrides.scss */
+  .maxi-footer {
+    position: fixed;
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+    bottom: 0; }
+
+  /* line 423, ../scss/_overrides.scss */
+  .main-container {
+    background-color: white; }
+
+  /* line 426, ../scss/_overrides.scss */
+  .footer {
+    margin-bottom: 200px; }
+
+  /* line 431, ../scss/_overrides.scss */
+  .js .main-container.relative {
+    margin-bottom: 0; }
+  /* line 434, ../scss/_overrides.scss */
+  .js .main-container.fixed {
+    margin-bottom: 40px; }
+  /* line 441, ../scss/_overrides.scss */
+  .js .footer.relative {
+    position: relative; }
+  /* line 444, ../scss/_overrides.scss */
+  .js .footer.fixed {
+    bottom: 0;
+    height: 40px;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%; } }
