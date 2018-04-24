@@ -101,6 +101,7 @@ p:last-child,
 // Main nav.
 .navbar-fixed-top {
     background-color: white;
+    border: 0;
 
     -webkit-box-shadow: -1px 4px 29px 5px hsla(0,0%,68%,.28);
     box-shadow: -1px 4px 29px 5px hsla(0,0%,68%,.28);
@@ -115,7 +116,7 @@ body.navbar-is-fixed-top {
 
   }
 }
-// toggle
+
 @media (max-width: $screen-sm-min) {
   .navbar-toggle {
     position: absolute;
@@ -124,46 +125,59 @@ body.navbar-is-fixed-top {
     margin: 15px;
   }
 }
+
 @media (min-width: $screen-sm-min) {
+  #navbar-collapse {
+    position: relative;
+  }
+  .navbar-header {
+    position: relative;
+    z-index: 1;
+  }
   .region-navigation-collapsible {
-    text-align: right;
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+  }
+  #block-fxj-main-menu,
+  #block-fxj-search,
+  #block-donatebutton {
+    display: inline-block;
+  }
+  #block-fxj-main-menu {
+    color: $gray-dark;
+    font-size: 18px;
 
-    #block-fxj-main-menu,
-    #block-fxj-search,
-    #block-donatebutton {
-      display: inline-block;
-    }
-    #block-fxj-main-menu {
-      color: $gray-dark;
-      font-size: 18px;
+    li {
+      margin-left: 1px;
+      a {
+        border-bottom: 5px solid white;
+        color: $gray-dark;
+        outline: 0;
 
-      li {
-        a {
-          border-bottom: 5px solid white;
+        -webkit-transition: border-color .2s linear .2s;
+        transition: border-color .2s linear .2s;
+
+        &:hover,
+        &:focus {
           color: $gray-dark;
-          outline: 0;
-
-          &:hover,
-          &:focus {
-            color: $gray-dark;
-            text-decoration: underline;
-          }
+          border-color: $brand-tertiary;
         }
+      }
 
-        &.active {
-          a {
-            border-color: $brand-tertiary;
-            color: $gray-dark;
-          }
+      &.active {
+        a {
+          border-color: $brand-tertiary;
+          color: $gray-dark;
         }
       }
     }
-    #block-donatebutton {
-      margin: 0 20px;
-    }
-    #block-fxj-search {
-      width: 200px;
-    }
+  }
+  #block-donatebutton {
+    margin: 0 20px;
+  }
+  #block-fxj-search {
+    width: 200px;
   }
 }
 
