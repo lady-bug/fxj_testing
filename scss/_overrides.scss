@@ -67,14 +67,13 @@ p:last-child,
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
-
-  .container-content {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1160px;
-  }
+}
+.container-content {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1160px;
 }
 
 // Site branding.
@@ -100,6 +99,15 @@ p:last-child,
 }
 
 // Main nav.
+.navbar-fixed-top {
+    background-color: white;
+
+    -webkit-box-shadow: -1px 4px 29px 5px hsla(0,0%,68%,.28);
+    box-shadow: -1px 4px 29px 5px hsla(0,0%,68%,.28);
+}
+body.navbar-is-fixed-top {
+    margin-top: 90px;
+}
 .navbar-default .navbar-nav > li > a {
   color: $gray-dark;
 
@@ -113,6 +121,7 @@ p:last-child,
     position: absolute;
     top: 0;
     right: 0;
+    margin: 15px;
   }
 }
 @media (min-width: $screen-sm-min) {
