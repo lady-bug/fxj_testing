@@ -1,0 +1,140 @@
+// Main nav.
+.navbar-fixed-top {
+    background-color: white;
+    border: 0;
+
+    -webkit-box-shadow: -1px 4px 29px 5px hsla(0,0%,68%,.28);
+    box-shadow: -1px 4px 29px 5px hsla(0,0%,68%,.28);
+}
+body.navbar-is-fixed-top {
+    margin-top: 90px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: $gray-dark;
+
+  &:hover {
+
+  }
+}
+
+@media (max-width: $screen-sm-min) {
+  .navbar-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  #navbar-collapse {
+    position: relative;
+  }
+  .navbar-header {
+    position: relative;
+    z-index: 1;
+  }
+  .region-navigation-collapsible {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+  }
+  #block-fxj-main-menu,
+  #block-fxj-search,
+  #block-donatebutton {
+    display: inline-block;
+  }
+  #block-fxj-main-menu {
+    color: $gray-dark;
+    font-size: 18px;
+
+    li {
+      margin-left: 1px;
+      a {
+        border-bottom: 5px solid white;
+        color: $gray-dark;
+        outline: 0;
+
+        -webkit-transition: border-color .2s linear .2s;
+        transition: border-color .2s linear .2s;
+
+        &:hover,
+        &:focus {
+          color: $gray-dark;
+          border-color: $brand-tertiary;
+        }
+      }
+
+      &.active {
+        a {
+          border-color: $brand-tertiary;
+          color: $gray-dark;
+        }
+      }
+    }
+  }
+  #block-donatebutton {
+    margin: 0 20px;
+  }
+  #block-fxj-search {
+    width: 200px;
+  }
+}
+
+
+// Site branding.
+.logo {
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 160px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.navbar-text {
+  clear: both;
+  float: none;
+  font-size: 11px;
+  font-weight: 300;
+  margin-left: 0;
+
+  @extend .sr-only;// hide slogan on the screen
+}
+
+// Search block
+#block-fxj-search {
+  .input-group{
+    border-bottom: 1px solid $gray;
+  }
+  .form-search {
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: $gray;
+  }
+  .form-submit {
+    background-color: white;
+    border: 0;
+    border-radius: 0;
+    color: $gray;
+  }
+}
+
+// Donate button.
+.btn-donate {
+  @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
+}
+#block-donatebutton {
+  vertical-align: top;
+  .block-title {
+    @extend .sr-only;
+  }
+  .btn-donate {
+    font-size: 18px;
+    border-radius: 26px;
+  }
+}
