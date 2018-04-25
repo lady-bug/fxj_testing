@@ -1477,7 +1477,7 @@ hr {
 
 /* line 125, ../bootstrap/stylesheets/bootstrap/_scaffolding.scss */
 .sr-only, .navbar-text, #block-donatebutton .block-title, .maxi-footer #block-copyright .block-title,
-.maxi-footer #block-logomonograma .block-title, .path-frontpage .container-content .region-header {
+.maxi-footer #block-logomonograma .block-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -3545,7 +3545,7 @@ select[multiple].input-lg,
 /* line 442, ../bootstrap/stylesheets/bootstrap/_forms.scss */
 .has-feedback label.sr-only ~ .form-control-feedback, .has-feedback label.navbar-text ~ .form-control-feedback, .has-feedback #block-donatebutton label.block-title ~ .form-control-feedback, #block-donatebutton .has-feedback label.block-title ~ .form-control-feedback, .has-feedback .maxi-footer #block-copyright label.block-title ~ .form-control-feedback, .maxi-footer #block-copyright .has-feedback label.block-title ~ .form-control-feedback,
 .has-feedback .maxi-footer #block-logomonograma label.block-title ~ .form-control-feedback,
-.maxi-footer #block-logomonograma .has-feedback label.block-title ~ .form-control-feedback, .has-feedback .path-frontpage .container-content label.region-header ~ .form-control-feedback, .path-frontpage .container-content .has-feedback label.region-header ~ .form-control-feedback {
+.maxi-footer #block-logomonograma .has-feedback label.block-title ~ .form-control-feedback {
   top: 0; }
 
 /* line 453, ../bootstrap/stylesheets/bootstrap/_forms.scss */
