@@ -7963,6 +7963,34 @@ p:last-child,
   padding-right: 15px;
   max-width: 1160px; }
 
+/* line 1, ../scss/fxj/_typo.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 400; }
+
+/* line 4, ../scss/fxj/_typo.scss */
+.h2--separator {
+  position: relative;
+  z-index: 1; }
+  /* line 8, ../scss/fxj/_typo.scss */
+  .h2--separator:before {
+    border-top: 1px solid #333333;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1; }
+  /* line 18, ../scss/fxj/_typo.scss */
+  .h2--separator span {
+    background-color: white;
+    display: inline-block;
+    padding-right: 5px; }
+
 /* line 2, ../scss/fxj/_nav-bar.scss */
 .navbar-fixed-top {
   background-color: white;
@@ -7972,7 +8000,7 @@ p:last-child,
 
 /* line 9, ../scss/fxj/_nav-bar.scss */
 body.navbar-is-fixed-top {
-  margin-top: 90px; }
+  margin-top: 70px; }
 
 /* line 12, ../scss/fxj/_nav-bar.scss */
 .navbar-default .navbar-nav > li > a {
@@ -8293,19 +8321,91 @@ body.navbar-is-fixed-top {
   .footer {
     margin-bottom: 200px; }
 
-  /* line 214, ../scss/fxj/_footers.scss */
+  /* line 216, ../scss/fxj/_footers.scss */
   .js .main-container.relative {
-    margin-bottom: 0; }
-  /* line 217, ../scss/fxj/_footers.scss */
+    margin-bottom: 30px; }
+  /* line 219, ../scss/fxj/_footers.scss */
   .js .main-container.fixed {
     margin-bottom: 40px; }
-  /* line 224, ../scss/fxj/_footers.scss */
+  /* line 226, ../scss/fxj/_footers.scss */
   .js .footer.relative {
     position: relative; }
-  /* line 227, ../scss/fxj/_footers.scss */
+  /* line 229, ../scss/fxj/_footers.scss */
   .js .footer.fixed {
     bottom: 0;
     height: 40px;
     margin-bottom: 0;
     position: fixed;
-    width: 100%; } }
+    width: 100%;
+    z-index: 2; } }
+/* line 1, ../scss/fxj/_slider.scss */
+.slick--skin--fullwidth .slide__title {
+  font-size: 2rem; }
+
+@media (min-width: 64em) {
+  /* line 5, ../scss/fxj/_slider.scss */
+  .slider {
+    background-color: white; }
+
+  /* line 8, ../scss/fxj/_slider.scss */
+  .slide__caption {
+    background-color: white;
+    margin-left: 6rem;
+    position: relative; }
+
+  /* line 13, ../scss/fxj/_slider.scss */
+  .slide__title {
+    background-color: #16a085;
+    left: -20px;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    width: calc(100% + 40px); }
+    /* line 22, ../scss/fxj/_slider.scss */
+    .slide__title a {
+      color: white;
+      font-weight: 300; }
+      /* line 25, ../scss/fxj/_slider.scss */
+      .slide__title a:hover {
+        text-decoration: none; }
+
+  /* line 30, ../scss/fxj/_slider.scss */
+  .slick-arrow::before {
+    color: white;
+    font-size: 36px;
+    font-size: 5rem; }
+
+  /* line 35, ../scss/fxj/_slider.scss */
+  .slick-prev {
+    left: 1rem; }
+
+  /* line 38, ../scss/fxj/_slider.scss */
+  .slick-next {
+    right: 1rem; } }
+/* line 2, ../scss/fxj/_collaborate.scss */
+.colaborate .row {
+  margin-bottom: 30px; }
+/* line 6, ../scss/fxj/_collaborate.scss */
+.colaborate .field--label {
+  display: none; }
+/* line 10, ../scss/fxj/_collaborate.scss */
+.colaborate-feature {
+  background-color: #f1c40f;
+  padding: 30px 20px;
+  color: white;
+  text-align: center;
+  font-size: 30px; }
+  /* line 17, ../scss/fxj/_collaborate.scss */
+  .colaborate-feature p {
+    font-weight: 300;
+    padding: 30px 0 0 0;
+    font-size: 20px; }
+/* line 24, ../scss/fxj/_collaborate.scss */
+.colaborate .fontawesome-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  padding-top: 14px;
+  border-radius: 35px;
+  border: 1px solid white; }

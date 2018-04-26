@@ -1,0 +1,32 @@
+.colaborate {
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .field--label {
+    display: none;
+  }
+
+  &-feature {
+    background-color: $brand-tertiary;
+    padding:30px 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+    p {
+      font-weight: 300;
+      padding: 30px 0 0 0;
+      font-size: 20px;
+    }
+  }
+
+  .fontawesome-icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding-top: 14px;
+    border-radius: 35px;
+    border: 1px solid white;
+  }
+}

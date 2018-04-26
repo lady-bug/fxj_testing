@@ -13,9 +13,11 @@
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1160px;
-  
-}
 
+}
+@import "typo";
 @import "nav-bar";
 @import "footers";
 @import "front-page";
+@import "slider";
+@import "collaborate";

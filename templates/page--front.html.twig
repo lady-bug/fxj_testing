@@ -38,6 +38,8 @@
  * - page.header: Items for the header region.
  * - page.navigation: Items for the navigation region.
  * - page.navigation_collapsible: Items for the navigation (collapsible) region.
+ * - page.highlighted: Items for the highlighted content region.
+ * - page.help: Dynamic help text, mostly for admin pages.
  * - page.content: The main content of the current page.
  * - page.footer: Items for the footer region.
  * - page.maxi_footer: Items for the footer region.
@@ -92,8 +94,9 @@
 {% if page.slider %}
   {% block slider %}
     <div class="slider {{ container }}" role="contentinfo">
+    <div class="row">
       {{ page.slider }}
-    </div>
+    </div></div>
   {% endblock %}
 {% endif %}
 
@@ -122,6 +125,20 @@
       %}
       <section{{ content_attributes.addClass(content_classes) }}>
 
+        {# Highlighted #}
+        {% if page.highlighted %}
+          {% block highlighted %}
+            <div class="highlighted">{{ page.highlighted }}</div>
+          {% endblock %}
+        {% endif %}
+
+        {# Help #}
+        {% if page.help %}
+          {% block help %}
+            {{ page.help }}
+          {% endblock %}
+        {% endif %}
+
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
@@ -133,6 +150,7 @@
   </div></div>
 {% endblock %}
 
+{# Footer #}
 {% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo"><div class="container-content">
@@ -141,6 +159,7 @@
   {% endblock %}
 {% endif %}
 
+{# Maxi footer #}
 {% if page.maxi_footer %}
   {% block maxi_footer %}
     <div class="maxi-footer {{ container }}" role="contentinfo"><div class="container-content">
