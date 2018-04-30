@@ -286,14 +286,14 @@ th {
   p,
   h2,
   h3,
-  .view .view-content .views-field-title {
+  .view .views-field-title {
     orphans: 3;
     widows: 3; }
 
   /* line 64, ../bootstrap/stylesheets/bootstrap/_print.scss */
   h2,
   h3,
-  .view .view-content .views-field-title {
+  .view .views-field-title {
     page-break-after: avoid; }
 
   /* line 72, ../bootstrap/stylesheets/bootstrap/_print.scss */
@@ -1503,7 +1503,7 @@ hr {
   cursor: pointer; }
 
 /* line 9, ../bootstrap/stylesheets/bootstrap/_type.scss */
-h1, h2, h3, .view .view-content .views-field-title, h4, h5, h6,
+h1, h2, h3, .view .views-field-title, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
@@ -1512,9 +1512,9 @@ h1, h2, h3, .view .view-content .views-field-title, h4, h5, h6,
   /* line 16, ../bootstrap/stylesheets/bootstrap/_type.scss */
   h1 small,
   h1 .small, h2 small,
-  h2 .small, h3 small, .view .view-content .views-field-title small,
+  h2 .small, h3 small, .view .views-field-title small,
   h3 .small,
-  .view .view-content .views-field-title .small, h4 small,
+  .view .views-field-title .small, h4 small,
   h4 .small, h5 small,
   h5 .small, h6 small,
   h6 .small,
@@ -1533,7 +1533,7 @@ h1, h2, h3, .view .view-content .views-field-title, h4, h5, h6,
 h1, .h1,
 h2, .h2,
 h3,
-.view .view-content .views-field-title, .h3 {
+.view .views-field-title, .h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
   /* line 30, ../bootstrap/stylesheets/bootstrap/_type.scss */
@@ -1544,9 +1544,9 @@ h3,
   h2 .small, .h2 small,
   .h2 .small,
   h3 small,
-  .view .view-content .views-field-title small,
+  .view .views-field-title small,
   h3 .small,
-  .view .view-content .views-field-title .small, .h3 small,
+  .view .views-field-title .small, .h3 small,
   .h3 .small {
     font-size: 65%; }
 
@@ -1577,7 +1577,7 @@ h2, .h2 {
   font-size: 30px; }
 
 /* line 49, ../bootstrap/stylesheets/bootstrap/_type.scss */
-h3, .view .view-content .views-field-title, .h3 {
+h3, .view .views-field-title, .h3 {
   font-size: 24px; }
 
 /* line 50, ../bootstrap/stylesheets/bootstrap/_type.scss */
@@ -1997,14 +1997,14 @@ pre {
     clear: both; }
 
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .view .view-content .views-row, .col-md-3, .maxi-footer .block, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .view .view-content .views-row, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .view .views-row, .col-md-3, .maxi-footer .block, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .view .views-row, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
 /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .view .view-content .views-row, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .view .views-row, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
 /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2028,7 +2028,7 @@ pre {
   width: 41.66667%; }
 
 /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-6, .view .view-content .views-row {
+.col-xs-6, .view .views-row {
   width: 50%; }
 
 /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2213,7 +2213,7 @@ pre {
 
 @media (min-width: 768px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .view .view-content .views-row, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .view .views-row, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2225,7 +2225,7 @@ pre {
     width: 16.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-3, .view .view-content .views-row {
+  .col-sm-3, .view .views-row {
     width: 25%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -7970,7 +7970,7 @@ p:last-child,
   max-width: 1160px; }
 
 /* line 1, ../scss/fxj/_typo.scss */
-h1, h2, h3, .view .view-content .views-field-title, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h3, .view .views-field-title, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 400; }
 
 /* line 4, ../scss/fxj/_typo.scss */
@@ -8344,17 +8344,21 @@ body.navbar-is-fixed-top {
     position: fixed;
     width: 100%;
     z-index: 2; } }
-/* line 7, ../scss/fxj/_views.scss */
-.view .view-content .views-row {
+/* line 6, ../scss/fxj/_views.scss */
+.view .view-header {
+  text-align: right;
+  margin-bottom: 10px; }
+/* line 15, ../scss/fxj/_views.scss */
+.view .views-row {
   margin-bottom: 15px; }
-  /* line 12, ../scss/fxj/_views.scss */
-  .view .view-content .views-row:nth-of-type(2n) {
+  /* line 20, ../scss/fxj/_views.scss */
+  .view .views-row:nth-of-type(2n) {
     clear: right; }
-  /* line 15, ../scss/fxj/_views.scss */
-  .view .view-content .views-row:nth-of-type(2n+1) {
+  /* line 23, ../scss/fxj/_views.scss */
+  .view .views-row:nth-of-type(2n+1) {
     clear: left; }
-/* line 20, ../scss/fxj/_views.scss */
-.view .view-content .views-field-field-actividades {
+/* line 28, ../scss/fxj/_views.scss */
+.view .views-field-field-actividades {
   background-color: white;
   border-radius: 13px;
   bottom: 36px;
@@ -8365,34 +8369,34 @@ body.navbar-is-fixed-top {
   position: relative;
   text-align: center;
   width: 26px; }
-  /* line 32, ../scss/fxj/_views.scss */
-  .view .view-content .views-field-field-actividades .fas {
+  /* line 40, ../scss/fxj/_views.scss */
+  .view .views-field-field-actividades .fas {
     vertical-align: middle; }
-  /* line 35, ../scss/fxj/_views.scss */
-  .view .view-content .views-field-field-actividades h2 {
+  /* line 43, ../scss/fxj/_views.scss */
+  .view .views-field-field-actividades h2 {
     display: none; }
-/* line 41, ../scss/fxj/_views.scss */
-.view .view-content .views-field-field-image a {
+/* line 49, ../scss/fxj/_views.scss */
+.view .views-field-field-image a {
   display: block;
   height: 100px;
   overflow: hidden;
   position: relative;
   width: 100%; }
-/* line 48, ../scss/fxj/_views.scss */
-.view .view-content .views-field-field-image img {
+/* line 56, ../scss/fxj/_views.scss */
+.view .views-field-field-image img {
   height: 100px;
   max-width: none;
   position: absolute;
   right: 0;
   top: 0;
   width: auto; }
-/* line 58, ../scss/fxj/_views.scss */
-.view .view-content .views-field-title {
+/* line 66, ../scss/fxj/_views.scss */
+.view .views-field-title {
   background-color: #16a085;
   margin: 0 0 5px 0;
   padding: 10px; }
-  /* line 64, ../scss/fxj/_views.scss */
-  .view .view-content .views-field-title a {
+  /* line 72, ../scss/fxj/_views.scss */
+  .view .views-field-title a {
     color: white;
     display: block;
     font-size: 14px;
@@ -8400,10 +8404,10 @@ body.navbar-is-fixed-top {
     text-decoration: none; }
 
 @media (min-width: 768px) {
-  /* line 76, ../scss/fxj/_views.scss */
+  /* line 84, ../scss/fxj/_views.scss */
   .view .view-content .views-row:nth-of-type(2n) {
     clear: none; }
-  /* line 79, ../scss/fxj/_views.scss */
+  /* line 87, ../scss/fxj/_views.scss */
   .view .view-content .views-row:nth-of-type(2n+1) {
     clear: none; } }
 /* line 1, ../scss/fxj/_slider.scss */

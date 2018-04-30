@@ -1,9 +1,17 @@
 .block-views .block-title {
   @extend .h2--separator;
 }
-.view .view-content {
-  @extend .row;
+.view {
 
+  .view-header {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .view-content {
+    @extend .row;
+  }
+  
   .views-row {
     @extend .col-xs-6;
     @extend .col-sm-3;
