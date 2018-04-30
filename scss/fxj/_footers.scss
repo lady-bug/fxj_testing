@@ -67,6 +67,7 @@
   }
 
   .block {
+    @extend .col-sm-6;
     @extend .col-md-3;
     padding-bottom: 20px;
     padding-top: 20px;

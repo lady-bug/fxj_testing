@@ -1997,7 +1997,7 @@ pre {
     clear: both; }
 
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .view .views-row, .col-md-3, .maxi-footer .block, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .view .views-row, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .view .views-row, .col-md-3, .maxi-footer .block, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .view .views-row, .col-sm-6, .maxi-footer .block, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2213,7 +2213,7 @@ pre {
 
 @media (min-width: 768px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .view .views-row, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .view .views-row, .col-sm-4, .col-sm-5, .col-sm-6, .maxi-footer .block, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2237,7 +2237,7 @@ pre {
     width: 41.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-6 {
+  .col-sm-6, .maxi-footer .block {
     width: 50%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -8212,21 +8212,21 @@ body.navbar-is-fixed-top {
   .maxi-footer .block {
     padding-bottom: 20px;
     padding-top: 20px; }
-  /* line 75, ../scss/fxj/_footers.scss */
+  /* line 76, ../scss/fxj/_footers.scss */
   .maxi-footer a {
     color: white; }
-  /* line 79, ../scss/fxj/_footers.scss */
+  /* line 80, ../scss/fxj/_footers.scss */
   .maxi-footer .block-title {
     font-size: 20px;
     font-weight: 400;
     margin-top: 0; }
-  /* line 95, ../scss/fxj/_footers.scss */
+  /* line 96, ../scss/fxj/_footers.scss */
   .maxi-footer #block-logomonograma img {
     height: 150px; }
-  /* line 100, ../scss/fxj/_footers.scss */
+  /* line 101, ../scss/fxj/_footers.scss */
   .maxi-footer .field--name-mail .form-type-email {
     position: relative; }
-    /* line 103, ../scss/fxj/_footers.scss */
+    /* line 104, ../scss/fxj/_footers.scss */
     .maxi-footer .field--name-mail .form-type-email label {
       bottom: 10px;
       font-family: 'Font Awesome 5 Free';
@@ -8242,13 +8242,13 @@ body.navbar-is-fixed-top {
       overflow: hidden;
       position: absolute;
       width: 14px; }
-      /* line 119, ../scss/fxj/_footers.scss */
+      /* line 120, ../scss/fxj/_footers.scss */
       .maxi-footer .field--name-mail .form-type-email label:before {
         content: "\f0e0"; }
-      /* line 122, ../scss/fxj/_footers.scss */
+      /* line 123, ../scss/fxj/_footers.scss */
       .maxi-footer .field--name-mail .form-type-email label:after {
         display: none; }
-  /* line 128, ../scss/fxj/_footers.scss */
+  /* line 129, ../scss/fxj/_footers.scss */
   .maxi-footer .field--name-mail input {
     color: white;
     background-color: #333333;
@@ -8256,12 +8256,12 @@ body.navbar-is-fixed-top {
     border-width: 0 0 1px 0;
     border-radius: 0;
     padding-left: 26px; }
-    /* line 136, ../scss/fxj/_footers.scss */
+    /* line 137, ../scss/fxj/_footers.scss */
     .maxi-footer .field--name-mail input:focus {
       outline: 0;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  /* line 143, ../scss/fxj/_footers.scss */
+  /* line 144, ../scss/fxj/_footers.scss */
   .maxi-footer #edit-subscribe {
     bottom: 20px;
     font-family: 'Font Awesome 5 Free';
@@ -8285,25 +8285,25 @@ body.navbar-is-fixed-top {
     font-size: 14px;
     color: white;
     background-color: #333333; }
-    /* line 168, ../scss/fxj/_footers.scss */
+    /* line 169, ../scss/fxj/_footers.scss */
     .maxi-footer #edit-subscribe:before {
       content: "\f054";
       padding: 0 13px; }
-  /* line 174, ../scss/fxj/_footers.scss */
+  /* line 175, ../scss/fxj/_footers.scss */
   .maxi-footer #edit-mail-wrapper {
     padding: 5px 10px 0 0;
     margin: 0;
     display: inline-block;
     width: calc(100% - 34px);
     float: left; }
-  /* line 181, ../scss/fxj/_footers.scss */
+  /* line 182, ../scss/fxj/_footers.scss */
   .maxi-footer #edit-actions--2 {
     display: inline-block;
     float: left; }
-  /* line 185, ../scss/fxj/_footers.scss */
+  /* line 186, ../scss/fxj/_footers.scss */
   .maxi-footer #edit-subscriptions-wrapper {
     margin: 0; }
-  /* line 188, ../scss/fxj/_footers.scss */
+  /* line 189, ../scss/fxj/_footers.scss */
   .maxi-footer #edit-message {
     margin-bottom: 10px;
     font-size: 20px;
@@ -8311,7 +8311,7 @@ body.navbar-is-fixed-top {
     margin-top: 0; }
 
 @media (min-width: 992px) {
-  /* line 199, ../scss/fxj/_footers.scss */
+  /* line 200, ../scss/fxj/_footers.scss */
   .maxi-footer {
     position: fixed;
     z-index: -1;
@@ -8319,24 +8319,24 @@ body.navbar-is-fixed-top {
     width: 100%;
     bottom: 0; }
 
-  /* line 206, ../scss/fxj/_footers.scss */
+  /* line 207, ../scss/fxj/_footers.scss */
   .main-container {
     background-color: white; }
 
-  /* line 209, ../scss/fxj/_footers.scss */
+  /* line 210, ../scss/fxj/_footers.scss */
   .footer {
     margin-bottom: 200px; }
 
-  /* line 216, ../scss/fxj/_footers.scss */
+  /* line 217, ../scss/fxj/_footers.scss */
   .js .main-container.relative {
     margin-bottom: 30px; }
-  /* line 219, ../scss/fxj/_footers.scss */
+  /* line 220, ../scss/fxj/_footers.scss */
   .js .main-container.fixed {
     margin-bottom: 40px; }
-  /* line 226, ../scss/fxj/_footers.scss */
+  /* line 227, ../scss/fxj/_footers.scss */
   .js .footer.relative {
     position: relative; }
-  /* line 229, ../scss/fxj/_footers.scss */
+  /* line 230, ../scss/fxj/_footers.scss */
   .js .footer.fixed {
     bottom: 0;
     height: 40px;
