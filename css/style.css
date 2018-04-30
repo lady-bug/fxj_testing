@@ -8354,23 +8354,56 @@ body.navbar-is-fixed-top {
   .view .view-content .views-row:nth-of-type(2n+1) {
     clear: left; }
 /* line 20, ../scss/fxj/_views.scss */
+.view .view-content .views-field-field-actividades {
+  background-color: white;
+  border-radius: 13px;
+  bottom: 36px;
+  height: 26px;
+  left: 10px;
+  margin-bottom: -26px;
+  padding-top: 2px;
+  position: relative;
+  text-align: center;
+  width: 26px; }
+  /* line 32, ../scss/fxj/_views.scss */
+  .view .view-content .views-field-field-actividades .fas {
+    vertical-align: middle; }
+  /* line 35, ../scss/fxj/_views.scss */
+  .view .view-content .views-field-field-actividades h2 {
+    display: none; }
+/* line 41, ../scss/fxj/_views.scss */
+.view .view-content .views-field-field-image a {
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+/* line 48, ../scss/fxj/_views.scss */
+.view .view-content .views-field-field-image img {
+  height: 100px;
+  max-width: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto; }
+/* line 58, ../scss/fxj/_views.scss */
 .view .view-content .views-field-title {
   background-color: #16a085;
   margin: 0 0 5px 0;
   padding: 10px; }
-  /* line 26, ../scss/fxj/_views.scss */
+  /* line 64, ../scss/fxj/_views.scss */
   .view .view-content .views-field-title a {
-    text-decoration: none;
     color: white;
     display: block;
     font-size: 14px;
-    font-weight: 300; }
+    font-weight: 300;
+    text-decoration: none; }
 
 @media (min-width: 768px) {
-  /* line 38, ../scss/fxj/_views.scss */
+  /* line 76, ../scss/fxj/_views.scss */
   .view .view-content .views-row:nth-of-type(2n) {
     clear: none; }
-  /* line 41, ../scss/fxj/_views.scss */
+  /* line 79, ../scss/fxj/_views.scss */
   .view .view-content .views-row:nth-of-type(2n+1) {
     clear: none; } }
 /* line 1, ../scss/fxj/_slider.scss */
