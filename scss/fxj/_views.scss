@@ -1,0 +1,46 @@
+.block-views .block-title {
+  @extend .h2--separator;
+}
+.view .view-content {
+  @extend .row;
+
+  .views-row {
+    margin-bottom: 15px;
+    @extend .col-xs-6;
+    @extend .col-sm-3;
+
+    &:nth-of-type(2n) {
+      clear: right;
+    }
+    &:nth-of-type(2n+1) {
+      clear: left;
+    }
+  }
+
+  .views-field-title{
+    @extend h3;
+    background-color: $brand-primary;
+    margin: 0 0 5px 0;
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+      color: white;
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}
+@media (min-width: $screen-sm-min) {
+  .view .view-content {
+    .views-row {
+      &:nth-of-type(2n) {
+        clear: none;
+      }
+      &:nth-of-type(2n+1) {
+        clear: none;
+      }
+    }
+  }
+}

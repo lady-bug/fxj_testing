@@ -54,13 +54,11 @@
   ]
 %}
 <section{{ attributes.addClass(classes) }}>
-
+  {{ title_prefix }}
   {% if label %}
-  <h2 class="h2--separator">
-    <span>{{ label }}</span>
-  </h2>
+    <h2{{ title_attributes.addClass('block-title') }}><span>{{ label }}</span></h2>
   {% endif %}
-
+  {{ title_suffix }}
 
   {% block content %}
     {{ content }}
