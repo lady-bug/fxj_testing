@@ -1,11 +1,14 @@
 .main-container .block-title {
   @extend .h2--separator;
+  margin-bottom: 20px;
 }
 .view {
 
-  .view-header {
+  .view-footer {
     /*text-align: right;*/
-    margin-bottom: 10px;
+    border-bottom: 1px solid $gray-lighter;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .view-content {
@@ -98,6 +101,28 @@
     }
     .views-field-view-node {
       margin-left: 10px;
+    }
+  }
+
+  .views-row--plain {
+    position: relative;
+
+    .views-field-field-actividades {
+      background-color: $brand-primary;
+      border-radius: 0;
+      color: white;
+      font-size: 40px;
+      height: 100px;
+      left: -85px;
+      margin: 0;
+      padding: 15px 0 0 0;
+      position: absolute;
+      top: 0;
+      width: 100px;
+    }
+    .views-field-created{
+      display: block;
+      margin: 0 0 0 10px;
     }
   }
 
