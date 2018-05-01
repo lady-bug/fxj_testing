@@ -52,5 +52,12 @@
         width: 70px;
       }
     }
+
+    .row:first-of-type {
+      .col-md-3 {
+        text-align: right;
+      }
+    }
+
   }
 }

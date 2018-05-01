@@ -2,6 +2,19 @@
   @extend .h2--separator;
   margin-bottom: 20px;
 }
+#block-nuestrosprojectos {
+  .field--name-body{
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: $screen-md-min) {
+  #block-nuestrosprojectos {
+    .col-md-3 {
+      text-align: right;
+    }
+  }
+}
+
 .block-views-blockfrontpage-noticias-block-1,
 .block-views-blockfrontpage-eventos-block-1 {
   @extend .col-sm-6;
@@ -200,15 +213,13 @@
     }
   }
 }
-@media (min-width: $screen-sm-min) {
-  .view .view-content {
-    .views-row {
-      &:nth-of-type(2n) {
-        /*clear: none;*/
-      }
-      &:nth-of-type(2n+1) {
-        /*clear: none;*/
-      }
+@media (min-width: $screen-md-min) {
+  .view-frontpage-campanas,
+  .view-frontpage-noticias,
+  .view-frontpage-eventos {
+
+    .view-footer {
+      border-bottom: 0;
     }
   }
 }
