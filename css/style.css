@@ -1997,7 +1997,9 @@ pre {
     clear: both; }
 
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .view .views-row:not(.views-row--short), .col-md-3, .maxi-footer .block, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .view .views-row:not(.views-row--short), .col-sm-6, .maxi-footer .block, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .maxi-footer .block, .block-views-blockfrontpage-noticias-block-1,
+.block-views-blockfrontpage-eventos-block-1, .view .views-row:not(.views-row--short), .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .view .views-row:not(.views-row--short), .col-sm-6, .maxi-footer .block, .block-views-blockfrontpage-noticias-block-1,
+.block-views-blockfrontpage-eventos-block-1, .view .views-row:not(.views-row--short), .col-md-6, .block-views-blockfrontpage-campanas-block-1, .block-views-blockfrontpage-campanas-block-1 .views-row:not(.views-row--short), .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2213,7 +2215,8 @@ pre {
 
 @media (min-width: 768px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .view .views-row:not(.views-row--short), .col-sm-4, .col-sm-5, .col-sm-6, .maxi-footer .block, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .maxi-footer .block, .block-views-blockfrontpage-noticias-block-1,
+  .block-views-blockfrontpage-eventos-block-1, .view .views-row:not(.views-row--short), .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2225,7 +2228,7 @@ pre {
     width: 16.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-3, .view .views-row:not(.views-row--short) {
+  .col-sm-3 {
     width: 25%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2237,7 +2240,8 @@ pre {
     width: 41.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-6, .maxi-footer .block {
+  .col-sm-6, .maxi-footer .block, .block-views-blockfrontpage-noticias-block-1,
+  .block-views-blockfrontpage-eventos-block-1, .view .views-row:not(.views-row--short) {
     width: 50%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2421,7 +2425,8 @@ pre {
     margin-left: 100%; } }
 @media (min-width: 992px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .maxi-footer .block, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .maxi-footer .block, .block-views-blockfrontpage-noticias-block-1,
+  .block-views-blockfrontpage-eventos-block-1, .view .views-row:not(.views-row--short), .col-md-4, .col-md-5, .col-md-6, .block-views-blockfrontpage-campanas-block-1, .block-views-blockfrontpage-campanas-block-1 .views-row:not(.views-row--short), .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2433,7 +2438,8 @@ pre {
     width: 16.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-3, .maxi-footer .block {
+  .col-md-3, .maxi-footer .block, .block-views-blockfrontpage-noticias-block-1,
+  .block-views-blockfrontpage-eventos-block-1, .view .views-row:not(.views-row--short) {
     width: 25%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2445,7 +2451,7 @@ pre {
     width: 41.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-6 {
+  .col-md-6, .block-views-blockfrontpage-campanas-block-1, .block-views-blockfrontpage-campanas-block-1 .views-row:not(.views-row--short) {
     width: 50%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -7006,11 +7012,11 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 /* line 14, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:before, .filter-wrapper:before, .view .views-row--short:before, .clearfix:after, .filter-wrapper:after, .view .views-row--short:after {
+.clearfix:before, .filter-wrapper:before, .highlighted:before, .view .views-row--short:before, .clearfix:after, .filter-wrapper:after, .highlighted:after, .view .views-row--short:after {
   content: " ";
   display: table; }
 /* line 19, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:after, .filter-wrapper:after, .view .views-row--short:after {
+.clearfix:after, .filter-wrapper:after, .highlighted:after, .view .views-row--short:after {
   clear: both; }
 
 /* line 12, ../bootstrap/stylesheets/bootstrap/_utilities.scss */
@@ -8348,25 +8354,60 @@ body.navbar-is-fixed-top {
 .main-container .block-title {
   margin-bottom: 20px; }
 
-/* line 7, ../scss/fxj/_views.scss */
+/* line 5, ../scss/fxj/_views.scss */
+.block-views-blockfrontpage-noticias-block-1,
+.block-views-blockfrontpage-eventos-block-1 {
+  padding: 0; }
+
+@media (min-width: 768px) {
+  /* line 12, ../scss/fxj/_views.scss */
+  .block-views-blockfrontpage-noticias-block-1 {
+    padding-right: 15px; }
+
+  /* line 15, ../scss/fxj/_views.scss */
+  .block-views-blockfrontpage-eventos-block-1 {
+    padding-left: 15px; } }
+/* line 20, ../scss/fxj/_views.scss */
+.block-views-blockfrontpage-campanas-block-1 {
+  padding: 0; }
+
+@media (min-width: 992px) {
+  /* line 28, ../scss/fxj/_views.scss */
+  .block-views-blockfrontpage-campanas-block-1 {
+    padding-right: 15px; }
+
+  /* line 31, ../scss/fxj/_views.scss */
+  .block-views-blockfrontpage-noticias-block-1 {
+    padding-left: 15px; }
+    /* line 33, ../scss/fxj/_views.scss */
+    .block-views-blockfrontpage-noticias-block-1 .view-content {
+      margin-left: 0;
+      margin-right: 0; }
+      /* line 37, ../scss/fxj/_views.scss */
+      .block-views-blockfrontpage-noticias-block-1 .view-content .views-row--short {
+        margin-left: 100px; }
+        /* line 40, ../scss/fxj/_views.scss */
+        .block-views-blockfrontpage-noticias-block-1 .view-content .views-row--short .views-field-field-image {
+          left: 15px; } }
+/* line 49, ../scss/fxj/_views.scss */
 .view .view-footer {
   /*text-align: right;*/
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 10px;
   margin-bottom: 20px; }
-/* line 17, ../scss/fxj/_views.scss */
+/* line 59, ../scss/fxj/_views.scss */
 .view .views-row {
   margin-bottom: 15px; }
-/* line 20, ../scss/fxj/_views.scss */
+/* line 62, ../scss/fxj/_views.scss */
 .view .views-row:not(.views-row--short) {
   margin-bottom: 15px; }
-  /* line 25, ../scss/fxj/_views.scss */
+  /* line 68, ../scss/fxj/_views.scss */
   .view .views-row:not(.views-row--short):nth-of-type(2n) {
     clear: right; }
-  /* line 28, ../scss/fxj/_views.scss */
+  /* line 71, ../scss/fxj/_views.scss */
   .view .views-row:not(.views-row--short):nth-of-type(2n+1) {
     clear: left; }
-/* line 33, ../scss/fxj/_views.scss */
+/* line 76, ../scss/fxj/_views.scss */
 .view .views-field-field-actividades {
   background-color: white;
   border-radius: 13px;
@@ -8378,37 +8419,35 @@ body.navbar-is-fixed-top {
   position: relative;
   text-align: center;
   width: 26px; }
-  /* line 45, ../scss/fxj/_views.scss */
+  /* line 88, ../scss/fxj/_views.scss */
   .view .views-field-field-actividades .fas {
     vertical-align: middle; }
-  /* line 48, ../scss/fxj/_views.scss */
+  /* line 91, ../scss/fxj/_views.scss */
   .view .views-field-field-actividades h2 {
     display: none; }
-/* line 52, ../scss/fxj/_views.scss */
+/* line 95, ../scss/fxj/_views.scss */
 .view .views-row--short {
-  margin-left: 100px;
-  min-height: 100px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  /* line 59, ../scss/fxj/_views.scss */
+  margin-left: 115px;
+  min-height: 100px; }
+  /* line 100, ../scss/fxj/_views.scss */
   .view .views-row--short .views-field-title {
     background-color: transparent;
     margin: 0; }
-    /* line 63, ../scss/fxj/_views.scss */
+    /* line 104, ../scss/fxj/_views.scss */
     .view .views-row--short .views-field-title a {
       color: #333333;
       font-size: 16px;
       font-weight: 400; }
-      /* line 68, ../scss/fxj/_views.scss */
+      /* line 109, ../scss/fxj/_views.scss */
       .view .views-row--short .views-field-title a:hover, .view .views-row--short .views-field-title a:focus {
         text-decoration: underline; }
-  /* line 75, ../scss/fxj/_views.scss */
+  /* line 116, ../scss/fxj/_views.scss */
   .view .views-row--short .views-field-field-image {
     display: inline-block;
-    left: 15px;
+    left: 0;
     position: absolute;
     width: 100px; }
-    /* line 81, ../scss/fxj/_views.scss */
+    /* line 122, ../scss/fxj/_views.scss */
     .view .views-row--short .views-field-field-image img {
       height: 100px;
       max-width: none;
@@ -8416,7 +8455,7 @@ body.navbar-is-fixed-top {
       right: 0;
       top: 0;
       width: auto; }
-  /* line 90, ../scss/fxj/_views.scss */
+  /* line 131, ../scss/fxj/_views.scss */
   .view .views-row--short .views-field-field-actividades {
     bottom: auto;
     color: #777777;
@@ -8424,41 +8463,41 @@ body.navbar-is-fixed-top {
     left: auto;
     margin: 0 0 0 6px;
     padding: 0; }
-  /* line 98, ../scss/fxj/_views.scss */
+  /* line 139, ../scss/fxj/_views.scss */
   .view .views-row--short .views-field-created {
     color: #777777;
     display: inline-block; }
-  /* line 102, ../scss/fxj/_views.scss */
+  /* line 143, ../scss/fxj/_views.scss */
   .view .views-row--short .views-field-view-node {
     margin-left: 10px; }
-/* line 107, ../scss/fxj/_views.scss */
+/* line 148, ../scss/fxj/_views.scss */
 .view .views-row--plain {
   position: relative; }
-  /* line 110, ../scss/fxj/_views.scss */
+  /* line 151, ../scss/fxj/_views.scss */
   .view .views-row--plain .views-field-field-actividades {
     background-color: #16a085;
     border-radius: 0;
     color: white;
     font-size: 40px;
     height: 100px;
-    left: -85px;
+    left: -100px;
     margin: 0;
     padding: 15px 0 0 0;
     position: absolute;
     top: 0;
     width: 100px; }
-  /* line 123, ../scss/fxj/_views.scss */
+  /* line 164, ../scss/fxj/_views.scss */
   .view .views-row--plain .views-field-created {
     display: block;
     margin: 0 0 0 10px; }
-/* line 130, ../scss/fxj/_views.scss */
+/* line 171, ../scss/fxj/_views.scss */
 .view .views-field-field-image a {
   display: block;
   height: 100px;
   overflow: hidden;
   position: relative;
   width: 100%; }
-/* line 137, ../scss/fxj/_views.scss */
+/* line 178, ../scss/fxj/_views.scss */
 .view .views-field-field-image img {
   height: 100px;
   max-width: none;
@@ -8466,12 +8505,12 @@ body.navbar-is-fixed-top {
   right: 0;
   top: 0;
   width: auto; }
-/* line 147, ../scss/fxj/_views.scss */
+/* line 188, ../scss/fxj/_views.scss */
 .view .views-field-title {
   background-color: #16a085;
   margin: 0 0 5px 0;
   padding: 10px; }
-  /* line 153, ../scss/fxj/_views.scss */
+  /* line 194, ../scss/fxj/_views.scss */
   .view .views-field-title a {
     color: white;
     display: block;
@@ -8480,12 +8519,12 @@ body.navbar-is-fixed-top {
     text-decoration: none; }
 
 @media (min-width: 768px) {
-  /* line 165, ../scss/fxj/_views.scss */
+  /* line 206, ../scss/fxj/_views.scss */
   .view .view-content .views-row:nth-of-type(2n) {
-    clear: none; }
-  /* line 168, ../scss/fxj/_views.scss */
+    /*clear: none;*/ }
+  /* line 209, ../scss/fxj/_views.scss */
   .view .view-content .views-row:nth-of-type(2n+1) {
-    clear: none; } }
+    /*clear: none;*/ } }
 /* line 1, ../scss/fxj/_slider.scss */
 .slider {
   background-color: white; }

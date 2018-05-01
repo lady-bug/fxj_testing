@@ -15,6 +15,11 @@
   max-width: 1160px;
 
 }
+//Regions
+.highlighted {
+  @extend .clearfix;
+}
+
 @import "typo";
 @import "nav-bar";
 @import "footers";
