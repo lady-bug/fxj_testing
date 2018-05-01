@@ -1,18 +1,20 @@
-.block-views .block-title {
+.main-container .block-title {
   @extend .h2--separator;
 }
 .view {
 
   .view-header {
-    text-align: right;
+    /*text-align: right;*/
     margin-bottom: 10px;
   }
 
   .view-content {
     @extend .row;
   }
-  
   .views-row {
+    margin-bottom: 15px;
+  }
+  .views-row:not(.views-row--short) {
     @extend .col-xs-6;
     @extend .col-sm-3;
     margin-bottom: 15px;
@@ -42,6 +44,60 @@
     }
     h2 {
       display: none;
+    }
+  }
+  .views-row--short {
+    @extend .clearfix;
+    margin-left: 100px;
+    min-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .views-field-title {
+        background-color: transparent;
+        margin: 0;
+
+        a {
+          color: $gray-dark;
+          font-size: 16px;
+          font-weight: 400;
+
+          &:hover,
+          &:focus {
+            text-decoration: underline;
+          }
+        }
+    }
+
+    .views-field-field-image {
+      display: inline-block;
+      left: 15px;
+      position: absolute;
+      width: 100px;
+
+      img {
+        height: 100px;
+        max-width: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+      }
+    }
+    .views-field-field-actividades {
+      bottom: auto;
+      color: $gray-light;
+      display: inline-block;
+      left: auto;
+      margin: 0 0 0 6px;
+      padding: 0;
+    }
+    .views-field-created {
+      color: $gray-light;
+      display: inline-block;
+    }
+    .views-field-view-node {
+      margin-left: 10px;
     }
   }
 
