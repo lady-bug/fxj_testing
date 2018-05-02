@@ -8054,42 +8054,54 @@ body.navbar-is-fixed-top {
     color: #333333;
     font-size: 18px; }
     /* line 51, ../scss/fxj/_nav-bar.scss */
-    #block-fxj-main-menu li {
+    #block-fxj-main-menu > ul > li {
       margin-left: 1px; }
       /* line 53, ../scss/fxj/_nav-bar.scss */
-      #block-fxj-main-menu li a {
+      #block-fxj-main-menu > ul > li > a {
         border-bottom: 5px solid white;
         color: #333333;
         outline: 0;
         -webkit-transition: border-color .2s linear .2s;
         transition: border-color .2s linear .2s; }
         /* line 61, ../scss/fxj/_nav-bar.scss */
-        #block-fxj-main-menu li a:hover, #block-fxj-main-menu li a:focus {
+        #block-fxj-main-menu > ul > li > a:hover, #block-fxj-main-menu > ul > li > a:focus {
           color: #333333;
           border-color: #f1c40f; }
       /* line 69, ../scss/fxj/_nav-bar.scss */
-      #block-fxj-main-menu li.active a {
+      #block-fxj-main-menu > ul > li.active > a {
         border-color: #f1c40f;
         color: #333333; }
+    /* line 76, ../scss/fxj/_nav-bar.scss */
+    #block-fxj-main-menu .dropdown-menu > li > a {
+      background-color: transparent;
+      color: #333333; }
+    /* line 80, ../scss/fxj/_nav-bar.scss */
+    #block-fxj-main-menu .dropdown-menu > li.active > a {
+      color: #333333;
+      background-color: #eeeeee; }
+    /* line 84, ../scss/fxj/_nav-bar.scss */
+    #block-fxj-main-menu .dropdown-menu > li a:hover,
+    #block-fxj-main-menu .dropdown-menu > li a:focus {
+      color: #16a085; }
 
-  /* line 76, ../scss/fxj/_nav-bar.scss */
+  /* line 91, ../scss/fxj/_nav-bar.scss */
   #block-donatebutton {
     margin: 0 20px; }
 
-  /* line 79, ../scss/fxj/_nav-bar.scss */
+  /* line 94, ../scss/fxj/_nav-bar.scss */
   #block-fxj-search {
     width: 200px; } }
-/* line 86, ../scss/fxj/_nav-bar.scss */
+/* line 101, ../scss/fxj/_nav-bar.scss */
 .logo {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
   width: 160px; }
-  /* line 92, ../scss/fxj/_nav-bar.scss */
+  /* line 107, ../scss/fxj/_nav-bar.scss */
   .logo img {
     width: 100%; }
 
-/* line 97, ../scss/fxj/_nav-bar.scss */
+/* line 112, ../scss/fxj/_nav-bar.scss */
 .navbar-text {
   clear: both;
   float: none;
@@ -8097,24 +8109,24 @@ body.navbar-is-fixed-top {
   font-weight: 300;
   margin-left: 0; }
 
-/* line 109, ../scss/fxj/_nav-bar.scss */
+/* line 124, ../scss/fxj/_nav-bar.scss */
 #block-fxj-search .input-group {
   border-bottom: 1px solid #555555; }
-/* line 112, ../scss/fxj/_nav-bar.scss */
+/* line 127, ../scss/fxj/_nav-bar.scss */
 #block-fxj-search .form-search {
   border: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #555555; }
-/* line 119, ../scss/fxj/_nav-bar.scss */
+/* line 134, ../scss/fxj/_nav-bar.scss */
 #block-fxj-search .form-submit {
   background-color: white;
   border: 0;
   border-radius: 0;
   color: #555555; }
 
-/* line 128, ../scss/fxj/_nav-bar.scss */
+/* line 143, ../scss/fxj/_nav-bar.scss */
 .btn-donate {
   color: #fff;
   background-color: #f1c40f;
@@ -8151,10 +8163,10 @@ body.navbar-is-fixed-top {
     color: #f1c40f;
     background-color: #fff; }
 
-/* line 131, ../scss/fxj/_nav-bar.scss */
+/* line 146, ../scss/fxj/_nav-bar.scss */
 #block-donatebutton {
   vertical-align: top; }
-  /* line 136, ../scss/fxj/_nav-bar.scss */
+  /* line 151, ../scss/fxj/_nav-bar.scss */
   #block-donatebutton .btn-donate {
     font-size: 18px;
     border-radius: 26px; }

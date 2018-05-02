@@ -48,9 +48,9 @@ body.navbar-is-fixed-top {
     color: $gray-dark;
     font-size: 18px;
 
-    li {
+    & > ul > li {
       margin-left: 1px;
-      a {
+      > a {
         border-bottom: 5px solid white;
         color: $gray-dark;
         outline: 0;
@@ -66,12 +66,27 @@ body.navbar-is-fixed-top {
       }
 
       &.active {
-        a {
+        > a {
           border-color: $brand-tertiary;
           color: $gray-dark;
         }
       }
     }
+    .dropdown-menu > li {
+       > a {
+        background-color: transparent;
+        color: $gray-dark;
+      }
+      &.active > a {
+          color: $gray-dark;
+          background-color: $gray-lighter;
+      }
+      a:hover,
+      a:focus {
+          color: $brand-primary;
+      }
+    }
+
   }
   #block-donatebutton {
     margin: 0 20px;
